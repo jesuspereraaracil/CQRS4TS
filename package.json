@@ -25,10 +25,11 @@
     "build:tsc": "tsc --emitDeclarationOnly",
     "build:bun": "bun build src/index.ts --outdir ./lib",
     "prebuild": "bun run clean",
-    "build": "bun run build:bun && bun run build:tsc",
-    "test": "bun test",
+    "build": "bun run build:bun && bun run build:tsc"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jesuspereraaracil/CQRS4TS.git"
@@ -44,3 +45,4 @@
   },
   "homepage": "https://github.com/jesuspereraaracil/CQRS4TS#readme"
 }
+
