@@ -1,0 +1,46 @@
+{
+  "name": "@jpereraaracil/CQRS4TS",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "CQRS implementation for TypeScript",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/bun": "^1.1.14",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.12.0",
+    "prettier": "3.3.3",
+    "typescript-eslint": "^8.15.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "prettier": "prettier src --write",
+    "eslint": "eslint src --fix",
+    "build:tsc": "tsc --emitDeclarationOnly",
+    "build:bun": "bun build src/index.ts --outdir ./lib",
+    "prebuild": "bun run clean",
+    "build": "bun run build:bun && bun run build:tsc",
+    "test": "bun test",
+  },
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesuspereraaracil/CQRS4TS.git"
+  },
+  "keywords": [
+    "typescript",
+    "cqrs"
+  ],
+  "author": "jesuspereraaracil",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jesuspereraaracil/CQRS4TS/issues"
+  },
+  "homepage": "https://github.com/jesuspereraaracil/CQRS4TS#readme"
+}
