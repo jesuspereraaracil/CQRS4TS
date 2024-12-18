@@ -1,6 +1,6 @@
 {
   "name": "@jpereraaracil/cqrs4ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "module": "src/index.ts",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
