@@ -1,5 +1,5 @@
 {
-  "name": "@jpereraaracil/CQRS4TS",
+  "name": "@jpereraaracil/cqrs4ts",
   "version": "0.0.1",
   "module": "src/index.ts",
   "main": "lib/index.js",
