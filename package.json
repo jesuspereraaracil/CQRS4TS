@@ -1,6 +1,6 @@
 {
   "name": "@jpereraaracil/cqrs4ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "src/index.ts",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -45,4 +45,3 @@
   },
   "homepage": "https://github.com/jesuspereraaracil/CQRS4TS#readme"
 }
-
