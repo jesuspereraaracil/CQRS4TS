@@ -1,5 +1,5 @@
-import type { Command } from '@/command/command';
-import type { CommandHandler } from '@/command/command-handler';
+import type { Command } from './command';
+import type { CommandHandler } from './command-handler';
 
 export class CommandBus {
   private static readonly _INSTANCE: CommandBus = new CommandBus();

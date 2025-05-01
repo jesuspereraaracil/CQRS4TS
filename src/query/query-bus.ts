@@ -1,6 +1,6 @@
-import type { Query } from '@/query/query';
-import type { QueryHandler } from '@/query/query-handler';
-import type { QueryResponse } from '@/query/query-response';
+import type { Query } from './query';
+import type { QueryHandler } from './query-handler';
+import type { QueryResponse } from './query-response';
 
 export class QueryBus {
   private static readonly _INSTANCE: QueryBus = new QueryBus();
